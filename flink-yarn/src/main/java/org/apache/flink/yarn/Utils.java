@@ -653,7 +653,6 @@ public final class Utils {
         if (modifyAcls != null && !modifyAcls.isEmpty()) {
             acls.put(ApplicationAccessType.MODIFY_APP, modifyAcls);
         }
-
         if (!acls.isEmpty()) {
             amContainer.setApplicationACLs(acls);
         }
